@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_2dkTcBLcEeyt-OGsWSuVvg" name="TradeManagementSystemUML">
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_29QgIBLcEeyt-OGsWSuVvg">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_UtzXwBLdEeyt-OGsWSuVvg" name="业务员"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_jZskcBLdEeyt-OGsWSuVvg" name="登录">
+    <include xmi:type="uml:Include" xmi:id="_13A0UBLdEeyt-OGsWSuVvg" addition="_0PI3kBLdEeyt-OGsWSuVvg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_oJy2YBLdEeyt-OGsWSuVvg" memberEnd="_oJ15sBLdEeyt-OGsWSuVvg _oJ2gwBLdEeyt-OGsWSuVvg">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_oJ0rkBLdEeyt-OGsWSuVvg" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_oJ1SoBLdEeyt-OGsWSuVvg" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_oJ15sBLdEeyt-OGsWSuVvg" name="登录" type="_jZskcBLdEeyt-OGsWSuVvg" association="_oJy2YBLdEeyt-OGsWSuVvg"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_oJ2gwBLdEeyt-OGsWSuVvg" name="业务员" type="_UtzXwBLdEeyt-OGsWSuVvg" association="_oJy2YBLdEeyt-OGsWSuVvg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_0PI3kBLdEeyt-OGsWSuVvg" name="验证"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_rhYyYBLfEeyt-OGsWSuVvg" name="管理供货商和客户资料"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_vEwLcBLfEeyt-OGsWSuVvg" memberEnd="_vEynsBLfEeyt-OGsWSuVvg _vEz10BLfEeyt-OGsWSuVvg">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_vExZkBLfEeyt-OGsWSuVvg" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_vEyAoBLfEeyt-OGsWSuVvg" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_vEynsBLfEeyt-OGsWSuVvg" name="管理供货商和客户资料" type="_rhYyYBLfEeyt-OGsWSuVvg" association="_vEwLcBLfEeyt-OGsWSuVvg"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_vEz10BLfEeyt-OGsWSuVvg" name="业务员" type="_UtzXwBLdEeyt-OGsWSuVvg" association="_vEwLcBLfEeyt-OGsWSuVvg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_0wTZABLfEeyt-OGsWSuVvg" name="管理订单资料"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_3n_-4BLfEeyt-OGsWSuVvg" memberEnd="_3oBNARLfEeyt-OGsWSuVvg _3oB0EBLfEeyt-OGsWSuVvg">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_3oAl8BLfEeyt-OGsWSuVvg" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_3oBNABLfEeyt-OGsWSuVvg" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_3oBNARLfEeyt-OGsWSuVvg" name="管理订单资料" type="_0wTZABLfEeyt-OGsWSuVvg" association="_3n_-4BLfEeyt-OGsWSuVvg"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_3oB0EBLfEeyt-OGsWSuVvg" name="业务员" type="_UtzXwBLdEeyt-OGsWSuVvg" association="_3n_-4BLfEeyt-OGsWSuVvg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_8TzbIBLpEeyt-OGsWSuVvg" name="报销单"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_Aqg8sBLqEeyt-OGsWSuVvg" memberEnd="_AqiK0RLqEeyt-OGsWSuVvg _Aqix4BLqEeyt-OGsWSuVvg">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_AqhjwBLqEeyt-OGsWSuVvg" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_AqiK0BLqEeyt-OGsWSuVvg" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_AqiK0RLqEeyt-OGsWSuVvg" name="报销单" type="_8TzbIBLpEeyt-OGsWSuVvg" association="_Aqg8sBLqEeyt-OGsWSuVvg"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_Aqix4BLqEeyt-OGsWSuVvg" name="业务员" type="_UtzXwBLdEeyt-OGsWSuVvg" association="_Aqg8sBLqEeyt-OGsWSuVvg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_VXyiYBL9Eeyt-OGsWSuVvg" name="UseCase12"/>
+</uml:Model>
