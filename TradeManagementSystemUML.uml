@@ -39,5 +39,39 @@
     <ownedEnd xmi:type="uml:Property" xmi:id="_AqiK0RLqEeyt-OGsWSuVvg" name="报销单" type="_8TzbIBLpEeyt-OGsWSuVvg" association="_Aqg8sBLqEeyt-OGsWSuVvg"/>
     <ownedEnd xmi:type="uml:Property" xmi:id="_Aqix4BLqEeyt-OGsWSuVvg" name="业务员" type="_UtzXwBLdEeyt-OGsWSuVvg" association="_Aqg8sBLqEeyt-OGsWSuVvg"/>
   </packagedElement>
-  <packagedElement xmi:type="uml:UseCase" xmi:id="_VXyiYBL9Eeyt-OGsWSuVvg" name="UseCase12"/>
+  <packagedElement xmi:type="uml:Activity" xmi:id="_YJWTgBOLEey4lZvWyDPO7w" name="Activity12"/>
+  <packagedElement xmi:type="uml:Interaction" xmi:id="_8-MCYBONEey4lZvWyDPO7w" name="Interaction13">
+    <lifeline xmi:type="uml:Lifeline" xmi:id="_TWVwIBOOEey4lZvWyDPO7w" name="客户" coveredBy="_KVNxEBOSEey4lZvWyDPO7w _KWEssBOSEey4lZvWyDPO7w"/>
+    <lifeline xmi:type="uml:Lifeline" xmi:id="_X6iUEBOOEey4lZvWyDPO7w" name="业务员" coveredBy="_KVNxEROSEey4lZvWyDPO7w _MBfFoBOSEey4lZvWyDPO7w _MDAIkBOSEey4lZvWyDPO7w _F9cqIBOTEey4lZvWyDPO7w _yBKrcBOeEey4lZvWyDPO7w _F-krgBOTEey4lZvWyDPO7w _s2cTABOeEey4lZvWyDPO7w _KWEFoBOSEey4lZvWyDPO7w _KV9X8BOSEey4lZvWyDPO7w"/>
+    <lifeline xmi:type="uml:Lifeline" xmi:id="_aJsTQBOOEey4lZvWyDPO7w" name="Lifeline3"/>
+    <lifeline xmi:type="uml:Lifeline" xmi:id="_vt6NMBOPEey4lZvWyDPO7w" name="供货商" coveredBy="_F9dRMBOTEey4lZvWyDPO7w _F-kEcBOTEey4lZvWyDPO7w _F-d90BOTEey4lZvWyDPO7w"/>
+    <lifeline xmi:type="uml:Lifeline" xmi:id="_yYiAYBOPEey4lZvWyDPO7w" name="系统" coveredBy="_MBfFoROSEey4lZvWyDPO7w _MC_hgBOSEey4lZvWyDPO7w _yBLSgBOeEey4lZvWyDPO7w _s2c6EBOeEey4lZvWyDPO7w _MC4z0BOSEey4lZvWyDPO7w"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_KVNxEBOSEey4lZvWyDPO7w" name="Message6SendEvent" covered="_TWVwIBOOEey4lZvWyDPO7w" message="_KVMi8BOSEey4lZvWyDPO7w"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_KVNxEROSEey4lZvWyDPO7w" name="Message6ReceiveEvent" covered="_X6iUEBOOEey4lZvWyDPO7w" message="_KVMi8BOSEey4lZvWyDPO7w"/>
+    <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_KV9X8BOSEey4lZvWyDPO7w" name="BehaviorExecutionSpecification9" covered="_X6iUEBOOEey4lZvWyDPO7w" finish="_KWEFoBOSEey4lZvWyDPO7w" start="_KVNxEROSEey4lZvWyDPO7w"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_MBfFoBOSEey4lZvWyDPO7w" name="Message13SendEvent" covered="_X6iUEBOOEey4lZvWyDPO7w" message="_MBd3gBOSEey4lZvWyDPO7w"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_MBfFoROSEey4lZvWyDPO7w" name="Message13ReceiveEvent" covered="_yYiAYBOPEey4lZvWyDPO7w" message="_MBd3gBOSEey4lZvWyDPO7w"/>
+    <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_MC4z0BOSEey4lZvWyDPO7w" name="BehaviorExecutionSpecification16" covered="_yYiAYBOPEey4lZvWyDPO7w" finish="_MC_hgBOSEey4lZvWyDPO7w" start="_MBfFoROSEey4lZvWyDPO7w"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_MC_hgBOSEey4lZvWyDPO7w" name="Message18SendEvent" covered="_yYiAYBOPEey4lZvWyDPO7w" message="_MC-6cBOSEey4lZvWyDPO7w"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_MDAIkBOSEey4lZvWyDPO7w" name="Message18ReceiveEvent" covered="_X6iUEBOOEey4lZvWyDPO7w" message="_MC-6cBOSEey4lZvWyDPO7w"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_F9cqIBOTEey4lZvWyDPO7w" name="Message20SendEvent" covered="_X6iUEBOOEey4lZvWyDPO7w" message="_F9cDEBOTEey4lZvWyDPO7w"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_F9dRMBOTEey4lZvWyDPO7w" name="Message20ReceiveEvent" covered="_vt6NMBOPEey4lZvWyDPO7w" message="_F9cDEBOTEey4lZvWyDPO7w"/>
+    <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_F-d90BOTEey4lZvWyDPO7w" name="BehaviorExecutionSpecification23" covered="_vt6NMBOPEey4lZvWyDPO7w" finish="_F-kEcBOTEey4lZvWyDPO7w" start="_F9dRMBOTEey4lZvWyDPO7w"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_yBKrcBOeEey4lZvWyDPO7w" name="Message30SendEvent" covered="_X6iUEBOOEey4lZvWyDPO7w" message="_yBKEYBOeEey4lZvWyDPO7w"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_yBLSgBOeEey4lZvWyDPO7w" name="Message30ReceiveEvent" covered="_yYiAYBOPEey4lZvWyDPO7w" message="_yBKEYBOeEey4lZvWyDPO7w"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_F-kEcBOTEey4lZvWyDPO7w" name="Message25SendEvent" covered="_vt6NMBOPEey4lZvWyDPO7w" message="_F-jdYBOTEey4lZvWyDPO7w"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_F-krgBOTEey4lZvWyDPO7w" name="Message25ReceiveEvent" covered="_X6iUEBOOEey4lZvWyDPO7w" message="_F-jdYBOTEey4lZvWyDPO7w"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_s2cTABOeEey4lZvWyDPO7w" name="Message27SendEvent" covered="_X6iUEBOOEey4lZvWyDPO7w" message="_s2PesBOeEey4lZvWyDPO7w"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_s2c6EBOeEey4lZvWyDPO7w" name="Message27ReceiveEvent" covered="_yYiAYBOPEey4lZvWyDPO7w" message="_s2PesBOeEey4lZvWyDPO7w"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_KWEFoBOSEey4lZvWyDPO7w" name="Message11SendEvent" covered="_X6iUEBOOEey4lZvWyDPO7w" message="_KWDekBOSEey4lZvWyDPO7w"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_KWEssBOSEey4lZvWyDPO7w" name="Message11ReceiveEvent" covered="_TWVwIBOOEey4lZvWyDPO7w" message="_KWDekBOSEey4lZvWyDPO7w"/>
+    <message xmi:type="uml:Message" xmi:id="_KVMi8BOSEey4lZvWyDPO7w" name="下单" receiveEvent="_KVNxEROSEey4lZvWyDPO7w" sendEvent="_KVNxEBOSEey4lZvWyDPO7w"/>
+    <message xmi:type="uml:Message" xmi:id="_KWDekBOSEey4lZvWyDPO7w" name="收货" messageSort="reply" receiveEvent="_KWEssBOSEey4lZvWyDPO7w" sendEvent="_KWEFoBOSEey4lZvWyDPO7w"/>
+    <message xmi:type="uml:Message" xmi:id="_MBd3gBOSEey4lZvWyDPO7w" name="取得单号" receiveEvent="_MBfFoROSEey4lZvWyDPO7w" sendEvent="_MBfFoBOSEey4lZvWyDPO7w"/>
+    <message xmi:type="uml:Message" xmi:id="_MC-6cBOSEey4lZvWyDPO7w" name="单号" messageSort="reply" receiveEvent="_MDAIkBOSEey4lZvWyDPO7w" sendEvent="_MC_hgBOSEey4lZvWyDPO7w"/>
+    <message xmi:type="uml:Message" xmi:id="_F9cDEBOTEey4lZvWyDPO7w" name="下单" receiveEvent="_F9dRMBOTEey4lZvWyDPO7w" sendEvent="_F9cqIBOTEey4lZvWyDPO7w"/>
+    <message xmi:type="uml:Message" xmi:id="_F-jdYBOTEey4lZvWyDPO7w" name="收货" messageSort="reply" receiveEvent="_F-krgBOTEey4lZvWyDPO7w" sendEvent="_F-kEcBOTEey4lZvWyDPO7w"/>
+    <message xmi:type="uml:Message" xmi:id="_s2PesBOeEey4lZvWyDPO7w" name="收货" messageSort="asynchCall" receiveEvent="_s2c6EBOeEey4lZvWyDPO7w" sendEvent="_s2cTABOeEey4lZvWyDPO7w"/>
+    <message xmi:type="uml:Message" xmi:id="_yBKEYBOeEey4lZvWyDPO7w" name="发货" messageSort="asynchCall" receiveEvent="_yBLSgBOeEey4lZvWyDPO7w" sendEvent="_yBKrcBOeEey4lZvWyDPO7w"/>
+  </packagedElement>
 </uml:Model>
